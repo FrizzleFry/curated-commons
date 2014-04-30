@@ -1,0 +1,96 @@
+html { -webkit-font-smoothing: antialiased; }
+
+body 
+{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   font-size: 14px;
+   color: #383F40;
+   background-color:#899DA1;
+   min-width: 960px; /*Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.*/
+
+}
+a:link {text-decoration: none; color: #383F40;}
+a:visited {text-decoration: none; color: #383F40;}
+a:hover {text-decoration: none; color: #47000D}
+a:active {text-decoration: none; color: #383F40;}
+
+/* grid properties */
+
+#liner_top_rect
+{background-color:#F8FFFF;
+}
+
+#liner_bottom_rect
+{background-color:#F8FFFF;
+}
+
+#liner_divider{
+    background-color:red;
+}
+
+/* text properties */
+#title
+{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#location
+{text-align: right;
+ font-style: italic;
+}
+
+#description {
+    font-style: italic;
+}    
+
+#text_bottom_rect{
+    text-align:center;
+    font-size: 26px;
+    font-weight:bold;
+}
+
+#catalogue_nr {
+    font-weight: bold;
+}
+
+#hashtag {
+    font-weight: bold;
+}
+
+/* image properties */
+#logo_image
+{float: right;
+}
+
+#about_cc_img1
+{max-width:100%;
+max-height:100%;
+}
+
+.inline_head {
+font-weight:bold;
+}
+
+.inline_underline {
+text-decoration: underline;
+}
+
+.p_rightAligned {
+text-align: right;
+padding-right:10px;
+color:#899DA1;
+}
+
+.collection_img {
+width: 95%;
+height: 95%;
+display: block;
+margin-right:auto;
+margin-left:auto;
+margin:0 auto;
+}
